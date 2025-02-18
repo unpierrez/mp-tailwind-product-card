@@ -1,29 +1,32 @@
 # Nome do Mini Projeto
 
-(um parágrafo explicando)
+Este mini projeto consiste na criação de um card interativo de produto, inspirado no design de um tênis Nike Air Max 90. O objetivo é desenvolver uma interface que destaque informações relevantes do produto, como nome, descrição, preço, avaliações e um botão de compra.
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Certifique-se de ter o ambiente configurado com Node.js e um projeto React com TailwindCSS instalado.
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
+Criar um card de produto com as seguintes informações:
+ - Imagem do produto
+ - Nome do produto
+ - Descrição curta
+ - Avaliação com estrelas e nota média
+ - Preço destacado
+ - Botão de compra chamativo
+ - Indicação de frete grátis
 
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
+👀 Dicas:
 
-- Requisito 3
-- ...
-
+- Utilize TailwindCSS para o layout responsivo.
+- Para as estrelas de avaliação, utilize o ícone de estrela preenchida e vazia.
+  
 ## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+- Adicionar animação ao passar o mouse sobre o botão de compra.
 
-- Requisito extra 1. 
-- Requisito extra 2.
+- Implementar a mudança de cor da estrela de acordo com a nota da avaliação.
 
 ## 🎨 Design Sugerido
 
@@ -31,21 +34,25 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### Figma
 
-🔗 [Link do design]()
+🔗 [Link do design](https://www.figma.com/community/file/1473484585619558555)
 
 ## 👉🏽 Sobre esse mini-projeto
 
 ### O que você irá praticar:
-
 #### React
 
-- Habilidade 1 do React
-- Habilidade 2
+- Componentização
 
+- Manipulação de eventos
+  
 #### TailwindCSS
 
-- Habilidade 1 do TailwindCSS
+- Estilização de componentes
 
-### Pré requisitos
+- Layouts responsivos
 
-(coloque aqui se houver algum)
+#### Pré requisitos
+
+- Conhecimento básico de React
+
+- Noções básicas de TailwindCSS

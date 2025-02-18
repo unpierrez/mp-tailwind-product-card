@@ -3,7 +3,6 @@
 Este mini projeto consiste na criação de um card interativo de produto, inspirado no design de um tênis Nike Air Max 90. O objetivo é desenvolver uma interface que destaque informações relevantes do produto, como nome, descrição, preço, avaliações e um botão de compra.
 
 ## 🤓 Antes de começar
-
 Certifique-se de ter o ambiente configurado com Node.js e um projeto React com TailwindCSS instalado.
 
 ## 🔨 Requisitos

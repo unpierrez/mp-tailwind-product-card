@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+# Card de produto com tailwind
 
 Este mini projeto consiste na criação de um card interativo de produto, inspirado no design de um tênis Nike Air Max 90. O objetivo é desenvolver uma interface que destaque informações relevantes do produto, como nome, descrição, preço, avaliações e um botão de compra.
 

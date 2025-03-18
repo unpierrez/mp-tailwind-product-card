@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+    <div id="card" class="max-w-sm  rounded-xl shadow-2xl overflow-hidden">
+        <img src="./assets/imgs/shoe.png" alt="imagem do produto">
+        <div id="content" class="p-8 space-y-6">
+            <h1 class="text-3xl font-bold mb-6">Nike air Max 90</h1>
+            <p class="text-small">
+                Eleve seu estilo com o clássico reinventado. Conforto supremo encontra design inovador
+            </p>
+            <div id="rating" class="flex gap-2">
+                <div id="star-wrapper" class="flex gap-2">
+                </div>
+                <span class="text-xs text-gray-500">4.8 (42 avaliações)</span>
+            </div>
+            <div class="flex justify-between">
+                <span class="text-3xl font-bold text-blue-400">R$ 899,90</span>
+                <button
+                    class="text-white text-sm px-4 rounded-full bg-gradient-to-r cursor-pointer from-blue-400 to-purple-900">Comprar
+                    agora</button>
+            </div>
+            <div class="flex gap-4 items-center">
+                <img src="/assets/icons/truck.svg" alt="Icone caminhão" class="h-4 w-4">
+                <p class="text-gray-500 text-xs">Frete grátis para todo o Brasil</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const starWrapperElement = document.getElementById('star-wrapper');
+
+    starWrapperElement.innerHTML =
+        `<img src="/assets/icons/filled-rating-star.svg"  class="w-4 h-4" />`.repeat(4) +
+        `<img src="/assets/icons/half-rating-star.svg"  class="w-4 h-4" />`.repeat(1);
+</script>
